@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-const defaultTagName = "regexp"
+const defaultTagName = "regex"
 
 var (
 	ErrUnexpected = errors.New("unexpected error occurred")
